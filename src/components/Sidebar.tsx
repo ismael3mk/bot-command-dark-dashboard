@@ -1,9 +1,9 @@
 
 import { useState } from 'react';
 import { 
-  activity, 
-  settings, 
-  "message-square" as MessageSquare,
+  Activity, 
+  Settings, 
+  MessageSquare,
   Bell,
   ArrowDown,
   ArrowUp
@@ -11,11 +11,11 @@ import {
 import { Button } from '@/components/ui/button';
 
 const menuItems = [
-  { name: 'Dashboard', icon: activity, active: true },
+  { name: 'Dashboard', icon: Activity, active: true },
   { name: 'Bot Stats', icon: ArrowUp },
   { name: 'Users', icon: Bell },
   { name: 'Commands', icon: MessageSquare },
-  { name: 'Settings', icon: settings },
+  { name: 'Settings', icon: Settings },
 ];
 
 export const Sidebar = () => {
